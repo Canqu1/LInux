@@ -1,0 +1,11 @@
+slam_toolbox:
+  ros__parameters:
+    use_odometry: false
+    use_scan_matching: true
+    base_frame: "base_link"
+    odom_frame: "odom"
+    map_frame: "map"
+    map_update_interval: 2.0
+    scan_topic: "/scan"   
+scan_queue_size: 50
+use_odom: false
